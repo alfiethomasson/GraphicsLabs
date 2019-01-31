@@ -1,0 +1,347 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{9635DAB2-FA75-34B1-BD61-802091659E06}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>enu_graphics_framework</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\40312683\Desktop\Graphics\bin\lib\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">enu_graphics_framework.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">enu_graphics_framework</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\40312683\Desktop\Graphics\bin\lib\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">enu_graphics_framework.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">enu_graphics_framework</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\40312683\Desktop\Graphics\bin\lib\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">enu_graphics_framework.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">enu_graphics_framework</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\40312683\Desktop\Graphics\bin\lib\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">enu_graphics_framework.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">enu_graphics_framework</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\set08116\labs\framework\src;C:\set08116\labs\framework\lib\glfw\include;C:\set08116\labs\framework\lib\glew\include;C:\set08116\labs\framework\lib\glm;C:\set08116\labs\framework\lib\assimp\include;C:\Users\40312683\Desktop\Graphics\framework\lib\assimp\include;C:\set08116\labs\framework\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;GLFW_DLL;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;GLFW_DLL;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\set08116\labs\framework\src;C:\set08116\labs\framework\lib\glfw\include;C:\set08116\labs\framework\lib\glew\include;C:\set08116\labs\framework\lib\glm;C:\set08116\labs\framework\lib\assimp\include;C:\Users\40312683\Desktop\Graphics\framework\lib\assimp\include;C:\set08116\labs\framework\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\set08116\labs\framework\src;C:\set08116\labs\framework\lib\glfw\include;C:\set08116\labs\framework\lib\glew\include;C:\set08116\labs\framework\lib\glm;C:\set08116\labs\framework\lib\assimp\include;C:\Users\40312683\Desktop\Graphics\framework\lib\assimp\include;C:\set08116\labs\framework\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\set08116\labs\framework\src;C:\set08116\labs\framework\lib\glfw\include;C:\set08116\labs\framework\lib\glew\include;C:\set08116\labs\framework\lib\glm;C:\set08116\labs\framework\lib\assimp\include;C:\Users\40312683\Desktop\Graphics\framework\lib\assimp\include;C:\set08116\labs\framework\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;GLFW_DLL;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;GLFW_DLL;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\set08116\labs\framework\src;C:\set08116\labs\framework\lib\glfw\include;C:\set08116\labs\framework\lib\glew\include;C:\set08116\labs\framework\lib\glm;C:\set08116\labs\framework\lib\assimp\include;C:\Users\40312683\Desktop\Graphics\framework\lib\assimp\include;C:\set08116\labs\framework\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\set08116\labs\framework\src;C:\set08116\labs\framework\lib\glfw\include;C:\set08116\labs\framework\lib\glew\include;C:\set08116\labs\framework\lib\glm;C:\set08116\labs\framework\lib\assimp\include;C:\Users\40312683\Desktop\Graphics\framework\lib\assimp\include;C:\set08116\labs\framework\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\set08116\labs\framework\src;C:\set08116\labs\framework\lib\glfw\include;C:\set08116\labs\framework\lib\glew\include;C:\set08116\labs\framework\lib\glm;C:\set08116\labs\framework\lib\assimp\include;C:\Users\40312683\Desktop\Graphics\framework\lib\assimp\include;C:\set08116\labs\framework\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;GLFW_DLL;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;GLFW_DLL;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\set08116\labs\framework\src;C:\set08116\labs\framework\lib\glfw\include;C:\set08116\labs\framework\lib\glew\include;C:\set08116\labs\framework\lib\glm;C:\set08116\labs\framework\lib\assimp\include;C:\Users\40312683\Desktop\Graphics\framework\lib\assimp\include;C:\set08116\labs\framework\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\set08116\labs\framework\src;C:\set08116\labs\framework\lib\glfw\include;C:\set08116\labs\framework\lib\glew\include;C:\set08116\labs\framework\lib\glm;C:\set08116\labs\framework\lib\assimp\include;C:\Users\40312683\Desktop\Graphics\framework\lib\assimp\include;C:\set08116\labs\framework\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\set08116\labs\framework\src;C:\set08116\labs\framework\lib\glfw\include;C:\set08116\labs\framework\lib\glew\include;C:\set08116\labs\framework\lib\glm;C:\set08116\labs\framework\lib\assimp\include;C:\Users\40312683\Desktop\Graphics\framework\lib\assimp\include;C:\set08116\labs\framework\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;GLFW_DLL;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;GLFW_DLL;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\set08116\labs\framework\src;C:\set08116\labs\framework\lib\glfw\include;C:\set08116\labs\framework\lib\glew\include;C:\set08116\labs\framework\lib\glm;C:\set08116\labs\framework\lib\assimp\include;C:\Users\40312683\Desktop\Graphics\framework\lib\assimp\include;C:\set08116\labs\framework\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\set08116\labs\framework\src;C:\set08116\labs\framework\lib\glfw\include;C:\set08116\labs\framework\lib\glew\include;C:\set08116\labs\framework\lib\glm;C:\set08116\labs\framework\lib\assimp\include;C:\Users\40312683\Desktop\Graphics\framework\lib\assimp\include;C:\set08116\labs\framework\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\set08116\labs\framework\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/set08116/labs/framework/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/set08116/labs -BC:/Users/40312683/Desktop/Graphics --check-stamp-file C:/Users/40312683/Desktop/Graphics/framework/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/set08116/labs/framework/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.12\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindPackageMessage.cmake;C:\set08116\labs\framework\CMakeLists.txt;C:\set08116\labs\framework\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\40312683\Desktop\Graphics\framework\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/set08116/labs/framework/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/set08116/labs -BC:/Users/40312683/Desktop/Graphics --check-stamp-file C:/Users/40312683/Desktop/Graphics/framework/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/set08116/labs/framework/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.12\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindPackageMessage.cmake;C:\set08116\labs\framework\CMakeLists.txt;C:\set08116\labs\framework\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\40312683\Desktop\Graphics\framework\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/set08116/labs/framework/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/set08116/labs -BC:/Users/40312683/Desktop/Graphics --check-stamp-file C:/Users/40312683/Desktop/Graphics/framework/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/set08116/labs/framework/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.12\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindPackageMessage.cmake;C:\set08116\labs\framework\CMakeLists.txt;C:\set08116\labs\framework\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\40312683\Desktop\Graphics\framework\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/set08116/labs/framework/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/set08116/labs -BC:/Users/40312683/Desktop/Graphics --check-stamp-file C:/Users/40312683/Desktop/Graphics/framework/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/set08116/labs/framework/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.12\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindPackageMessage.cmake;C:\set08116\labs\framework\CMakeLists.txt;C:\set08116\labs\framework\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\40312683\Desktop\Graphics\framework\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\set08116\labs\framework\src\app.cpp" />
+    <ClInclude Include="C:\set08116\labs\framework\src\app.h" />
+    <ClCompile Include="C:\set08116\labs\framework\src\arc_ball_camera.cpp" />
+    <ClInclude Include="C:\set08116\labs\framework\src\arc_ball_camera.h" />
+    <ClInclude Include="C:\set08116\labs\framework\src\camera.h" />
+    <ClCompile Include="C:\set08116\labs\framework\src\chase_camera.cpp" />
+    <ClInclude Include="C:\set08116\labs\framework\src\chase_camera.h" />
+    <ClCompile Include="C:\set08116\labs\framework\src\cubemap.cpp" />
+    <ClInclude Include="C:\set08116\labs\framework\src\cubemap.h" />
+    <ClCompile Include="C:\set08116\labs\framework\src\depth_buffer.cpp" />
+    <ClInclude Include="C:\set08116\labs\framework\src\depth_buffer.h" />
+    <ClCompile Include="C:\set08116\labs\framework\src\directional_light.cpp" />
+    <ClInclude Include="C:\set08116\labs\framework\src\directional_light.h" />
+    <ClCompile Include="C:\set08116\labs\framework\src\effect.cpp" />
+    <ClInclude Include="C:\set08116\labs\framework\src\effect.h" />
+    <ClCompile Include="C:\set08116\labs\framework\src\frame_buffer.cpp" />
+    <ClInclude Include="C:\set08116\labs\framework\src\frame_buffer.h" />
+    <ClCompile Include="C:\set08116\labs\framework\src\free_camera.cpp" />
+    <ClInclude Include="C:\set08116\labs\framework\src\free_camera.h" />
+    <ClCompile Include="C:\set08116\labs\framework\src\geometry.cpp" />
+    <ClInclude Include="C:\set08116\labs\framework\src\geometry.h" />
+    <ClCompile Include="C:\set08116\labs\framework\src\geometry_builder.cpp" />
+    <ClInclude Include="C:\set08116\labs\framework\src\geometry_builder.h" />
+    <ClInclude Include="C:\set08116\labs\framework\src\graphics_framework.h" />
+    <ClInclude Include="C:\set08116\labs\framework\src\material.h" />
+    <ClInclude Include="C:\set08116\labs\framework\src\mesh.h" />
+    <ClInclude Include="C:\set08116\labs\framework\src\point_light.h" />
+    <ClCompile Include="C:\set08116\labs\framework\src\renderer.cpp" />
+    <ClInclude Include="C:\set08116\labs\framework\src\renderer.h" />
+    <ClCompile Include="C:\set08116\labs\framework\src\shadow_map.cpp" />
+    <ClInclude Include="C:\set08116\labs\framework\src\shadow_map.h" />
+    <ClInclude Include="C:\set08116\labs\framework\src\spot_light.h" />
+    <ClCompile Include="C:\set08116\labs\framework\src\stdafx.cpp" />
+    <ClInclude Include="C:\set08116\labs\framework\src\stdafx.h" />
+    <ClCompile Include="C:\set08116\labs\framework\src\target_camera.cpp" />
+    <ClInclude Include="C:\set08116\labs\framework\src\target_camera.h" />
+    <ClCompile Include="C:\set08116\labs\framework\src\terrain.cpp" />
+    <ClInclude Include="C:\set08116\labs\framework\src\terrain.h" />
+    <ClCompile Include="C:\set08116\labs\framework\src\texture.cpp" />
+    <ClInclude Include="C:\set08116\labs\framework\src\texture.h" />
+    <ClInclude Include="C:\set08116\labs\framework\src\transform.h" />
+    <ClCompile Include="C:\set08116\labs\framework\src\util.cpp" />
+    <ClInclude Include="C:\set08116\labs\framework\src\util.h" />
+    <ClInclude Include="C:\set08116\labs\framework\lib\stb_image.h" />
+    <ClInclude Include="C:\set08116\labs\framework\lib\stb_image_write.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\40312683\Desktop\Graphics\ZERO_CHECK.vcxproj">
+      <Project>{9CBE2520-3A83-3B0F-A891-D6C031ED6426}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\40312683\Desktop\Graphics\framework\lib\assimp\contrib\irrXML\IrrXML.vcxproj">
+      <Project>{1E38D722-8DF6-3988-9ED3-30DE9AFFD5F2}</Project>
+      <Name>IrrXML</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\40312683\Desktop\Graphics\framework\lib\assimp\code\assimp.vcxproj">
+      <Project>{7DC26A5E-2F17-38B5-B577-8E16D77B5524}</Project>
+      <Name>assimp</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\40312683\Desktop\Graphics\framework\lib\glfw\src\glfw.vcxproj">
+      <Project>{E7885323-65F0-3865-BE4D-656E32664302}</Project>
+      <Name>glfw</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\40312683\Desktop\Graphics\framework\lib\glew\libglew_shared.vcxproj">
+      <Project>{6DC83391-8E83-3AB0-A523-C3F4D811BAC1}</Project>
+      <Name>libglew_shared</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\40312683\Desktop\Graphics\framework\lib\assimp\contrib\zlib\zlibstatic.vcxproj">
+      <Project>{D168C493-A60D-37AD-B46E-932348FF955E}</Project>
+      <Name>zlibstatic</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

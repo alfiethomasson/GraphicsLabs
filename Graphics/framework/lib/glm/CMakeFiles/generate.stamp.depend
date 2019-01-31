@@ -1,0 +1,11 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.12/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in
+C:/Program Files/CMake/share/cmake-3.12/Modules/CMakeParseArguments.cmake
+C:/Program Files/CMake/share/cmake-3.12/Modules/WriteBasicConfigVersionFile.cmake
+C:/set08116/labs/framework/lib/glm/./cmake/glm.pc.in
+C:/set08116/labs/framework/lib/glm/CMakeLists.txt
+C:/set08116/labs/framework/lib/glm/cmake/CMakePackageConfigHelpers.cmake
+C:/set08116/labs/framework/lib/glm/cmake/GNUInstallDirs.cmake
+C:/set08116/labs/framework/lib/glm/cmake/glmBuildConfig.cmake.in
+C:/set08116/labs/framework/lib/glm/cmake/glmConfig.cmake.in
+C:/set08116/labs/framework/lib/glm/cmake_uninstall.cmake.in

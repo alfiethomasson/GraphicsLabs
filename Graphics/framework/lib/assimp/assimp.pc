@@ -1,0 +1,11 @@
+prefix=C:/Program Files/set08116_graphics
+exec_prefix=C:/Program Files/set08116_graphics/
+libdir=C:/Program Files/set08116_graphics/lib
+includedir=C:/Program Files/set08116_graphics/include
+
+Name: set08116_graphics
+Description: Import various well-known 3D model formats in an uniform manner.
+Version: 4.1.0
+Libs: -L${libdir} -lassimp
+Libs.private:  
+Cflags: -I${includedir}

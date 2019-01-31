@@ -1,0 +1,17 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.12/Modules/CheckFunctionExists.cmake
+C:/Program Files/CMake/share/cmake-3.12/Modules/CheckIncludeFile.cmake
+C:/Program Files/CMake/share/cmake-3.12/Modules/CheckIncludeFileCXX.cmake
+C:/Program Files/CMake/share/cmake-3.12/Modules/CheckTypeSize.cmake
+C:/Program Files/CMake/share/cmake-3.12/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.12/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.12/Modules/FindPkgConfig.cmake
+C:/set08116/labs/framework/lib/assimp/CMakeLists.txt
+C:/set08116/labs/framework/lib/assimp/assimp-config-version.cmake.in
+C:/set08116/labs/framework/lib/assimp/assimp-config.cmake.in
+C:/set08116/labs/framework/lib/assimp/assimp.pc.in
+C:/set08116/labs/framework/lib/assimp/cmake-modules/FindDirectX.cmake
+C:/set08116/labs/framework/lib/assimp/cmake-modules/FindPkgMacros.cmake
+C:/set08116/labs/framework/lib/assimp/cmake-modules/PrecompiledHeader.cmake
+C:/set08116/labs/framework/lib/assimp/include/assimp/config.h.in
+C:/set08116/labs/framework/lib/assimp/revision.h.in

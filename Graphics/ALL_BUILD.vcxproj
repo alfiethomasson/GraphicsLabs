@@ -1,0 +1,451 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F25D62A7-4CD6-3F80-8596-CA4950C3169F}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\40312683\Desktop\Graphics\ZERO_CHECK.vcxproj">
+      <Project>{9CBE2520-3A83-3B0F-A891-D6C031ED6426}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\40312683\Desktop\Graphics\00_TestProject.vcxproj">
+      <Project>{C2D79462-18AD-3EB2-86DF-D896B5ED625E}</Project>
+      <Name>00_TestProject</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\40312683\Desktop\Graphics\01_Getting_Started.vcxproj">
+      <Project>{50DF2BED-28E7-3E7D-A913-D049943BD4F7}</Project>
+      <Name>01_Getting_Started</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\40312683\Desktop\Graphics\02_Triangle.vcxproj">
+      <Project>{93989197-7AA6-394E-9802-8984A8B0F802}</Project>
+      <Name>02_Triangle</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\40312683\Desktop\Graphics\03_Quads.vcxproj">
+      <Project>{F5CED5A5-C92B-33E7-AF4B-80B5129A3E51}</Project>
+      <Name>03_Quads</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\40312683\Desktop\Graphics\04_Quads_with_Quads.vcxproj">
+      <Project>{EC0B4D92-8D01-303C-984C-6C45FA5B4926}</Project>
+      <Name>04_Quads_with_Quads</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\40312683\Desktop\Graphics\05_Quads_with_Triangle_Strips.vcxproj">
+      <Project>{07352617-CCE7-3B8F-B51D-0833D27793D5}</Project>
+      <Name>05_Quads_with_Triangle_Strips</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\40312683\Desktop\Graphics\06_Quads_with_Lines.vcxproj">
+      <Project>{C0CF030D-9AF0-3AAA-9DC5-B77E9183AF2D}</Project>
+      <Name>06_Quads_with_Lines</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\40312683\Desktop\Graphics\07_Quads_with_Line_Strips.vcxproj">
+      <Project>{4CEAD225-8F06-3AB2-8574-09D633405E91}</Project>
+      <Name>07_Quads_with_Line_Strips</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\40312683\Desktop\Graphics\08_Quads_with_Line_Loops.vcxproj">
+      <Project>{F6B84282-0E86-327D-9B41-4B2A421AD34B}</Project>
+      <Name>08_Quads_with_Line_Loops</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\40312683\Desktop\Graphics\09_Quads_with_Triangle_Fans.vcxproj">
+      <Project>{F0856258-64D6-3449-9B89-481ADD8CA5F1}</Project>
+      <Name>09_Quads_with_Triangle_Fans</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\40312683\Desktop\Graphics\12_GLM.vcxproj">
+      <Project>{74BC5FE4-E39D-3712-8E44-934151B293FB}</Project>
+      <Name>12_GLM</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\40312683\Desktop\Graphics\13_Rotating_Triangle.vcxproj">
+      <Project>{96F6D9E4-F231-3913-97CC-2E91E31A5506}</Project>
+      <Name>13_Rotating_Triangle</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\40312683\Desktop\Graphics\14_Scaling_Triangle.vcxproj">
+      <Project>{19E15CAF-4966-35EB-BB85-445689776ED9}</Project>
+      <Name>14_Scaling_Triangle</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\40312683\Desktop\Graphics\15_Scale_and_Rotate.vcxproj">
+      <Project>{45640194-2F0D-3474-ACFF-0B5892DF98A0}</Project>
+      <Name>15_Scale_and_Rotate</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\40312683\Desktop\Graphics\16_Moving_Quad.vcxproj">
+      <Project>{1A93420D-5745-3422-B9B8-DEF30D8AE886}</Project>
+      <Name>16_Moving_Quad</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\40312683\Desktop\Graphics\17_Full_Transformation.vcxproj">
+      <Project>{47C691B2-5BAF-3AA4-AF99-CD581EC5FD49}</Project>
+      <Name>17_Full_Transformation</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\40312683\Desktop\Graphics\18_Point_Based_Sierpinski.vcxproj">
+      <Project>{81677FDA-CDF5-32D1-8096-DF5D47967D1C}</Project>
+      <Name>18_Point_Based_Sierpinski</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\40312683\Desktop\Graphics\19_Cube.vcxproj">
+      <Project>{1FDEE4BD-8E6C-3A35-BF2D-5BDBC5362848}</Project>
+      <Name>19_Cube</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\40312683\Desktop\Graphics\20_Transformed_Cube.vcxproj">
+      <Project>{F4202D6B-0A9D-3D14-BEEF-2BF3D60E1508}</Project>
+      <Name>20_Transformed_Cube</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\40312683\Desktop\Graphics\21_Indexed_Cube.vcxproj">
+      <Project>{4C75AE9A-1A30-30AA-98AC-49B3B84333BD}</Project>
+      <Name>21_Indexed_Cube</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\40312683\Desktop\Graphics\22_Sierpinski_Gasket.vcxproj">
+      <Project>{6E1FB07E-3CDB-3A1E-9464-0552A6BCA43A}</Project>
+      <Name>22_Sierpinski_Gasket</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\40312683\Desktop\Graphics\23_Sphere_Subdivision.vcxproj">
+      <Project>{068EF1A2-C878-336B-9CC3-7E4131F5EDFA}</Project>
+      <Name>23_Sphere_Subdivision</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\40312683\Desktop\Graphics\24_Meshes.vcxproj">
+      <Project>{DF811D14-D9CC-3249-B0FC-EC831EF5D17C}</Project>
+      <Name>24_Meshes</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\40312683\Desktop\Graphics\25_Transforming_Meshes.vcxproj">
+      <Project>{370B551C-250A-3A0D-AE79-BDDF477E9639}</Project>
+      <Name>25_Transforming_Meshes</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\40312683\Desktop\Graphics\26_Shaders.vcxproj">
+      <Project>{4E9B9A9A-0FE7-3097-BBBC-300A02E59F8C}</Project>
+      <Name>26_Shaders</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\40312683\Desktop\Graphics\27_Texturing_Shader.vcxproj">
+      <Project>{09BE7EAC-A41B-34C4-A042-8592AD95C6DD}</Project>
+      <Name>27_Texturing_Shader</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\40312683\Desktop\Graphics\28_Repeat_Textures.vcxproj">
+      <Project>{A369BC66-2E27-3695-8FC4-0A3AEBADE5B3}</Project>
+      <Name>28_Repeat_Textures</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\40312683\Desktop\Graphics\29_Anisotropic.vcxproj">
+      <Project>{A56E6ABE-2335-36D5-AF9A-070E5FD3F346}</Project>
+      <Name>29_Anisotropic</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\40312683\Desktop\Graphics\30_Mipmaps.vcxproj">
+      <Project>{7A8D622D-0859-305E-9BD2-C3E3DA32089F}</Project>
+      <Name>30_Mipmaps</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\40312683\Desktop\Graphics\31_Anisotropic.vcxproj">
+      <Project>{5FC85DA4-532C-3499-B123-263A893CC618}</Project>
+      <Name>31_Anisotropic</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\40312683\Desktop\Graphics\32_Blended_Textures.vcxproj">
+      <Project>{83608420-5580-3B3D-A977-AB323CBE84B5}</Project>
+      <Name>32_Blended_Textures</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\40312683\Desktop\Graphics\33_Dissolve.vcxproj">
+      <Project>{3D4AF959-FFA1-33A8-851B-EE2EEA55555A}</Project>
+      <Name>33_Dissolve</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\40312683\Desktop\Graphics\34_Simple_Cell_Shading.vcxproj">
+      <Project>{5D770053-2623-3AD8-A5FD-EC413F0C2EB5}</Project>
+      <Name>34_Simple_Cell_Shading</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\40312683\Desktop\Graphics\35_Geometry_Builder.vcxproj">
+      <Project>{18C910FF-A059-32FC-AF14-4D44F104499A}</Project>
+      <Name>35_Geometry_Builder</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\40312683\Desktop\Graphics\35x_Transform_Hierarchy.vcxproj">
+      <Project>{21CC43F7-8A50-3F1A-828E-68F6B4E34AA7}</Project>
+      <Name>35x_Transform_Hierarchy</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\40312683\Desktop\Graphics\36_Loading_Models.vcxproj">
+      <Project>{70A9F834-CE46-33C2-922B-3ECE4C8BE6E6}</Project>
+      <Name>36_Loading_Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\40312683\Desktop\Graphics\37_Target_Camera.vcxproj">
+      <Project>{E64087D4-8918-3318-B53B-3D2E5765974B}</Project>
+      <Name>37_Target_Camera</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\40312683\Desktop\Graphics\38_Free_Camera.vcxproj">
+      <Project>{DDF55B1F-80C3-3197-9359-10D3856B3F0F}</Project>
+      <Name>38_Free_Camera</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\40312683\Desktop\Graphics\39_Chase_Camera.vcxproj">
+      <Project>{85FAA563-4A93-3894-A17E-8ABCB0EC3507}</Project>
+      <Name>39_Chase_Camera</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\40312683\Desktop\Graphics\40_Arc_Ball_Camera.vcxproj">
+      <Project>{099DE2D5-5E29-31FB-AD2B-C0723F63CFC1}</Project>
+      <Name>40_Arc_Ball_Camera</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\40312683\Desktop\Graphics\41_Picking.vcxproj">
+      <Project>{631A029C-E7E6-3444-B921-70087AD18D4A}</Project>
+      <Name>41_Picking</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\40312683\Desktop\Graphics\42_Simple_Ambient_Light.vcxproj">
+      <Project>{734D2898-A8D1-3F2A-916A-7D57D3666CB8}</Project>
+      <Name>42_Simple_Ambient_Light</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\40312683\Desktop\Graphics\43_Diffuse_Light_1.vcxproj">
+      <Project>{56A3984E-D915-31B4-BB57-5A412C9C5FA7}</Project>
+      <Name>43_Diffuse_Light_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\40312683\Desktop\Graphics\44_Diffuse_Light_2.vcxproj">
+      <Project>{7A0D176C-04F7-37DC-91EC-F7445CA7F79E}</Project>
+      <Name>44_Diffuse_Light_2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\40312683\Desktop\Graphics\45_Specular_Light.vcxproj">
+      <Project>{1F50FF53-7BB6-30C8-BBF0-1990F26814E1}</Project>
+      <Name>45_Specular_Light</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\40312683\Desktop\Graphics\46_Combined_Lighting.vcxproj">
+      <Project>{6E48DC1C-83F0-3715-A90E-CF2D44276FF9}</Project>
+      <Name>46_Combined_Lighting</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\40312683\Desktop\Graphics\47_Gouraud_Shading.vcxproj">
+      <Project>{6FF5BA43-0E4B-3EEA-B393-D31B822E6EAE}</Project>
+      <Name>47_Gouraud_Shading</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\40312683\Desktop\Graphics\48_Phong_Shading.vcxproj">
+      <Project>{8111F0DD-DFA1-3D44-8A6E-FE787449AA88}</Project>
+      <Name>48_Phong_Shading</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\40312683\Desktop\Graphics\49_Point_Light.vcxproj">
+      <Project>{75E63EBA-83E8-3647-B3D5-50D367BA1DE8}</Project>
+      <Name>49_Point_Light</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\40312683\Desktop\Graphics\50_Spot_Light.vcxproj">
+      <Project>{BF7A8B18-8E44-3355-96BE-1883A0792162}</Project>
+      <Name>50_Spot_Light</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\40312683\Desktop\Graphics\51_Multiple_Lights.vcxproj">
+      <Project>{424B228A-5ABA-3FE0-AAB1-5DEAC37AF3DB}</Project>
+      <Name>51_Multiple_Lights</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\40312683\Desktop\Graphics\52_Multifile_Shaders.vcxproj">
+      <Project>{AAD66EC6-BC06-3092-96A2-760DDFCC8F6B}</Project>
+      <Name>52_Multifile_Shaders</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\40312683\Desktop\Graphics\53_Shadow_Mapping.vcxproj">
+      <Project>{6932D7E8-4E87-3191-9F90-9E38A1C6C05E}</Project>
+      <Name>53_Shadow_Mapping</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\40312683\Desktop\Graphics\54_Shadowing.vcxproj">
+      <Project>{1656042E-8408-3721-8091-12BBD886675C}</Project>
+      <Name>54_Shadowing</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\40312683\Desktop\Graphics\55_Normal_Mapping.vcxproj">
+      <Project>{6ECFE405-3D20-3894-8896-95C4D465774B}</Project>
+      <Name>55_Normal_Mapping</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\40312683\Desktop\Graphics\56_Cube_Maps.vcxproj">
+      <Project>{621BEC69-D382-3096-A297-A495FCC0A8FF}</Project>
+      <Name>56_Cube_Maps</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\40312683\Desktop\Graphics\57_Skybox.vcxproj">
+      <Project>{89F9336A-FC28-3BB9-9017-5C39CAD0B4C8}</Project>
+      <Name>57_Skybox</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\40312683\Desktop\Graphics\58_Environment_Maps.vcxproj">
+      <Project>{5EB7041A-F5D4-345E-9FB0-A16DFFF0CA6D}</Project>
+      <Name>58_Environment_Maps</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\40312683\Desktop\Graphics\59_Tarnished_Object.vcxproj">
+      <Project>{078F6834-B7CF-3ACF-B4D0-6AACBFBCBF9C}</Project>
+      <Name>59_Tarnished_Object</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\40312683\Desktop\Graphics\60_Terrain.vcxproj">
+      <Project>{09D618F8-7775-39A6-B8A9-41B1628F9B0D}</Project>
+      <Name>60_Terrain</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\40312683\Desktop\Graphics\61_Fog.vcxproj">
+      <Project>{E4DDCFF5-E858-36B0-9AB7-A0A2C4C1951E}</Project>
+      <Name>61_Fog</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\40312683\Desktop\Graphics\62_Geometry_Shader.vcxproj">
+      <Project>{337FCC80-09CC-3C47-A295-846439F91B61}</Project>
+      <Name>62_Geometry_Shader</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\40312683\Desktop\Graphics\63_Exploding_Shape.vcxproj">
+      <Project>{FECA5139-A66C-3355-812E-BFDE0F3CD6A5}</Project>
+      <Name>63_Exploding_Shape</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\40312683\Desktop\Graphics\64_Showing_Normals.vcxproj">
+      <Project>{8D93DF3A-EB99-3B26-8B31-00ED052B5ABF}</Project>
+      <Name>64_Showing_Normals</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\40312683\Desktop\Graphics\65_Billboarding.vcxproj">
+      <Project>{391EC13B-201C-3588-9D37-2554F828E105}</Project>
+      <Name>65_Billboarding</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\40312683\Desktop\Graphics\66_Particle_System.vcxproj">
+      <Project>{C96C9156-28EF-381E-9110-DEBB8A11F8E6}</Project>
+      <Name>66_Particle_System</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\40312683\Desktop\Graphics\67_Compute_Shader.vcxproj">
+      <Project>{781FA7C6-9DF7-39D8-95B1-92B291CECD29}</Project>
+      <Name>67_Compute_Shader</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\40312683\Desktop\Graphics\68_Smoke_Effect.vcxproj">
+      <Project>{164352CE-0120-3B4F-B3B5-D7290F867849}</Project>
+      <Name>68_Smoke_Effect</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\40312683\Desktop\Graphics\69_Frame_Buffers.vcxproj">
+      <Project>{C18D940B-6FB5-3564-83EE-C2E1FED33812}</Project>
+      <Name>69_Frame_Buffers</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\40312683\Desktop\Graphics\70_Display_to_Screen.vcxproj">
+      <Project>{DC230DCF-4039-343B-BFE0-4BD0A7D21F44}</Project>
+      <Name>70_Display_to_Screen</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\40312683\Desktop\Graphics\71_Greyscale.vcxproj">
+      <Project>{82558ED6-B6FD-33A5-9175-480FC4FB7D8E}</Project>
+      <Name>71_Greyscale</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\40312683\Desktop\Graphics\72_Blur.vcxproj">
+      <Project>{970CDD7A-E40E-3E22-972A-9A40D7B80ABD}</Project>
+      <Name>72_Blur</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\40312683\Desktop\Graphics\73_Motion_Blur.vcxproj">
+      <Project>{F10449D5-07DC-375A-AF0B-332D06884F7D}</Project>
+      <Name>73_Motion_Blur</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\40312683\Desktop\Graphics\74_Depth_of_Field.vcxproj">
+      <Project>{6BF52F60-EBB9-3439-B9C9-5B796F7DF2D1}</Project>
+      <Name>74_Depth_of_Field</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\40312683\Desktop\Graphics\75_Masking.vcxproj">
+      <Project>{C9A47104-415C-3F25-BA5F-CFE1EB0CEDA8}</Project>
+      <Name>75_Masking</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\40312683\Desktop\Graphics\framework\lib\assimp\contrib\irrXML\IrrXML.vcxproj">
+      <Project>{1E38D722-8DF6-3988-9ED3-30DE9AFFD5F2}</Project>
+      <Name>IrrXML</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\40312683\Desktop\Graphics\framework\lib\assimp\code\assimp.vcxproj">
+      <Project>{7DC26A5E-2F17-38B5-B577-8E16D77B5524}</Project>
+      <Name>assimp</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\40312683\Desktop\Graphics\framework\enu_graphics_framework.vcxproj">
+      <Project>{9635DAB2-FA75-34B1-BD61-802091659E06}</Project>
+      <Name>enu_graphics_framework</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\40312683\Desktop\Graphics\framework\lib\glfw\src\glfw.vcxproj">
+      <Project>{E7885323-65F0-3865-BE4D-656E32664302}</Project>
+      <Name>glfw</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\40312683\Desktop\Graphics\framework\lib\glm\glm\glm_shared.vcxproj">
+      <Project>{2602EC20-E768-3484-AFD3-F3C745F5E4E9}</Project>
+      <Name>glm_shared</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\40312683\Desktop\Graphics\framework\lib\glm\glm\glm_static.vcxproj">
+      <Project>{7F920DDD-A7FE-37E8-A2DF-860BA36800AA}</Project>
+      <Name>glm_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\40312683\Desktop\Graphics\framework\lib\glew\libglew_shared.vcxproj">
+      <Project>{6DC83391-8E83-3AB0-A523-C3F4D811BAC1}</Project>
+      <Name>libglew_shared</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\40312683\Desktop\Graphics\framework\lib\assimp\contrib\zlib\zlib.vcxproj">
+      <Project>{9DC2EBEA-9013-39C5-99B4-D38A29DA847A}</Project>
+      <Name>zlib</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\40312683\Desktop\Graphics\framework\lib\assimp\contrib\zlib\zlibstatic.vcxproj">
+      <Project>{D168C493-A60D-37AD-B46E-932348FF955E}</Project>
+      <Name>zlibstatic</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
